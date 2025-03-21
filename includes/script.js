@@ -211,9 +211,9 @@ if(validacao){
 
 function validadeok(user, password){
     if(user === 'kaick' && password === '1234'){
-        return 1;
+        return true;
     }else{
-        return 0;
+        return false;
     }
 }
 
@@ -250,6 +250,20 @@ const sobrenome = (sob) => {
     return nomeCompleto;
 }
 
-console.log(sobrenome(" Oliver"));*/
+console.log(sobrenome(" Oliver"));
+let count = 0;
 
+function add(){
+    let count = 0;
+    count += 10;
+}
 
+add()
+add()
+console.log(count)*/
+
+function square(x){
+    return x * x;
+}
+
+console.log(square(1,))
