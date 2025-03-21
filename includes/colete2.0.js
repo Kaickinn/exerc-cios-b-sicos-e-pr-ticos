@@ -1,7 +1,7 @@
 (function () {
     "use strict";
     
-    console.log("By ksmode")
+    console.log("By ksmode");
     let cltEnabled = false;
     const [iconId, cltSlot] = ["cltIcon", document.getElementById("ehp2")];
   
