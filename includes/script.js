@@ -266,4 +266,4 @@ function square(x){
     return x * x;
 }
 
-console.log(square(1,))
+console.log(square())
