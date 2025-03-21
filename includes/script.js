@@ -260,10 +260,49 @@ function add(){
 
 add()
 add()
-console.log(count)*/
+console.log(count)
 
-function square(x){
-    return x * x;
+
+
+function addSquares(a, b){
+    function square(x){
+        return x * x;
+    }
+   const
+
+    let sqrA = square(a);
+    let sqrB = square(b);
+    return sqrA + sqrB;
 }
 
-console.log(square())
+console.log(addSquares(2,3))
+
+let listas = ['blabla', ['xx', 'yy']];
+
+let segundo = lista[1];
+
+let ingredientes = [
+    'agua',
+    'farinha',
+    'ovo',
+    'corante',
+    'sal',
+];
+
+//POP REMOVE - SHIFT REMOVE O PRIMEIRO
+
+// ingredientes.push('cebola');
+ingredientes.shift();
+
+console.log(ingredientes);
+
+console.log(`Total de ingredientes: ${ingredientes.length}`)*/
+
+
+     
+
+
+
+
+
+
