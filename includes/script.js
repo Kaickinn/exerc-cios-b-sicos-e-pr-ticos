@@ -356,12 +356,12 @@ let pessoa = {
 }
 
 console.log(pessoa.nomeCompleto())*/
-
+/*
 let cores = [
     {nome: 'preto', qt: 10},
     {nome: 'azul', qt: 5},
     {nome: 'vermelho', qt: 15}
-]
+]*/
 
 // cores.push('verde')
 /*
@@ -378,7 +378,114 @@ for(let i in cores){
 for(let cor of cores){
    console.log(`Nome: ${cor.nome} - ${cor.qt}`)
 }
-console.log(cores)*/
+console.log(cores)
+
+let numero = 0;
+
+while(numero < 10) {
+    console.log(`O numero da vez é ${numero}`);
+    numero++;
+}
+
+for(let numero = 0; numero <= 10; numero++){
+    console.log(`O numero da vez é ${numero}`);
+}
+
+while(condicional){
+    console.log("bla bla")
+}
+
+let frutas = ['banana', 'morango', 'cereja', 'maça'];
+for(let x in frutas){
+    console.log(frutas[x]);
+}
+
+// contando de 1 ate 100
+let n = 1;
+while(n <= 100) {
+    console.log(n);
+    n++;
+}*/
+
+// let frutas = ['banana', 'morango', 'cereja', 'maça'];
+// frutas[frutas.length - 1] = 'Pera';
+
+// frutas.pop();
+// frutas.push('KsGostoso');
+// frutas.pop();
+
+
+// delatar o ultimo frutas.pop()
+// deleta o primeiro frutas.shift();
+
+//console.log(frutas.join(', '));
+// console.log(frutas)
 
 
 
+// frutas.push('Kiwi');
+ //console.log(frutas)
+// console.log(frutas.length);
+
+
+// let frutas = ['banana', 'morango', 'cereja', 'maça'];
+
+// // muda a ordem do seu array frutas.sort();
+// // inverte o seu array frutas.reverse();
+// console.log(frutas);
+
+// let cars = [
+//     {brand: 'fiat', year: 2022},
+//     {brand: 'bmw', year: 2018},
+//     {brand: 'ferrari', year: 2020},
+// ]
+// //do maior ao menor so trocar o b, pelo a
+// cars.sort((a, b) => b.year - a.year);
+
+// console.log(cars)
+
+// let frutas = ['banana', 'morango', 'cereja', 'maça'];
+
+// let bigFrutas = frutas.filter((value) => {
+
+//     return value.length > 4;
+//     // return item.length > 4;
+
+//     // if(item.length > 4){
+//     //     return true;
+//     // }else{
+//     //     return false;
+//     // }
+// });
+
+// let frutas = ['banana', 'morango', 'cereja', 'maça'];
+
+// let ok = frutas.some((value) => {
+//     return value.length > 3;
+//     // if(value.length > 3){
+//     //     return true;
+//     // }else{
+//     //     return false;
+//     // }
+// });
+
+// if(ok){
+//     console.log('Todos são maior que 3')
+// } else{
+//     console.log("Não sao todos maior que 3")
+// }
+
+// let frutas = ['banana', 'morango', 'cereja', 'maça'];
+
+// if(frutas.includes('banana')){
+//     console.log("Tem banana sim")
+// } else {
+//     console.log("N tem")
+// }
+
+function clicou(){
+    console.log("Clicou no botao")
+}
+
+let botao = document.querySelector('.botao')
+botao.addEventListener("click", clicou)
