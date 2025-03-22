@@ -73,6 +73,7 @@ if(idade >= 20){
    console.log(idade)
 }*/
 
+
 // let idade = 17;
 
 // // if(idade >= 18){
@@ -296,7 +297,7 @@ ingredientes.shift();
 
 console.log(ingredientes);
 
-console.log(`Total de ingredientes: ${ingredientes.length}`)*/
+console.log(`Total de ingredientes: ${ingredientes.length}`)
 
 let personagem = {
     nome: "Teste",
@@ -315,7 +316,69 @@ console.log(`${personagem.nome} tem ${personagem.idade}`)
 console.log(personagem.caracteristicas.magia);
 console.log(personagem.olhos[1]);
 
+let personagem = {
+    nome: 'ksmode',
+    idade: 90,
+    pais: 'Brazil',
+    olhos: ['preto', 'azul'],
+    caracteristicas:{
+      forca : 5,
+      magia: 5,
+      stamina : 15
+    }
+}
 
+personagem.nome = 'pedro';
+personagem.caracteristicas.forca += 5;
+personagem.olhos.push('verde');
+
+console.log(personagem.olhos);
+
+let personagem = {
+    nome: 'ksmode',
+    idade: 90,
+    carros: [
+        {modelo: 'fiat', cor: 'preto'},
+        {modelo: 'ferrari', cor: 'vermelho'}
+    ]
+}
+
+console.log(personagem.carros[1].modelo);
+
+
+let pessoa = {
+    nome: 'ksmode',
+    sobrenome: 'oliveira',
+    idade: 90,
+    nomeCompleto: function(){
+        return 'blaaaa la blaa'
+    }
+}
+
+console.log(pessoa.nomeCompleto())*/
+
+let cores = [
+    {nome: 'preto', qt: 10},
+    {nome: 'azul', qt: 5},
+    {nome: 'vermelho', qt: 15}
+]
+
+// cores.push('verde')
+/*
+for(let n = 0; n < cores.length; n++) {
+    console.log(cores[n])
+}
+
+for(let i in cores){
+    // console.log(cores[i].nome)
+    cores[i].nome = cores[i].nome.toUpperCase();
+}
+
+/*
+for(let cor of cores){
+   console.log(`Nome: ${cor.nome} - ${cor.qt}`)
+}
+console.log(cores)*/
 
 
 
