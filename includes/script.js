@@ -298,9 +298,22 @@ console.log(ingredientes);
 
 console.log(`Total de ingredientes: ${ingredientes.length}`)*/
 
+let personagem = {
+    nome: "Teste",
+    idade : 90,
+    pais: 'brazil',
+    olhos: ['preto', 'azul'],
+    caracteristicas:{
+      forca : 5,
+      magia: 5,
+      stamina : 15
+    }
+    
 
-     
-
+}
+console.log(`${personagem.nome} tem ${personagem.idade}`)
+console.log(personagem.caracteristicas.magia);
+console.log(personagem.olhos[1]);
 
 
 
