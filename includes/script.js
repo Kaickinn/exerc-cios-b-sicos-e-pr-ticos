@@ -484,8 +484,21 @@ while(n <= 100) {
 // }
 
 function clicou(){
-    console.log("Clicou no botao")
+    const teste = document.querySelector('#teste');
+    const ul = teste.querySelector('ul');
+    //ul.children[0].append("(alterado)")
+    ul.children[0].innerHTML += "(alterado)";
+    // console.log(teste.children[0].children)
+    //console.log("Clicou no botao")
+    // console.log(ul)
+    //ul.innerHTML = ul.innerHTML + "<li> Item alterado</li>";
+    // ul.innerHTML += "<li> Item alterado</li>";
+
+    //para substituir
+    //ul.children[0].innerHTML = "Item  <strong> alterado! </strong>";
+    //console.log(ul.outerHTML)
+    //ul.outerHTML = '<strong>Alterado</strong>'
 }
 
-let botao = document.querySelector('.botao')
-botao.addEventListener("click", clicou)
+// let botao = document.querySelector('.botao')
+// botao.addEventListener("click", clicou)
