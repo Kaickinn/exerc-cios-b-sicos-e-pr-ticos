@@ -484,7 +484,7 @@ while(n <= 100) {
 // }
 
 function clicou(){
-    const teste = document.querySelector('#teste');
+    /*const teste = document.querySelector('#teste');
     const ul = teste.querySelector('ul');
     //ul.children[0].append("(alterado)")
     ul.children[0].innerHTML += "(alterado)";
@@ -497,8 +497,97 @@ function clicou(){
     //para substituir
     //ul.children[0].innerHTML = "Item  <strong> alterado! </strong>";
     //console.log(ul.outerHTML)
-    //ul.outerHTML = '<strong>Alterado</strong>'
+    //ul.outerHTML = '<strong>Alterado</strong>'*/
+
+    // const input = document.querySelector('input');
+    // const botao = document.querySelector('.botao')
+
+    // if(input.getAttribute('type') == 'text'){
+    //   input.setAttribute('type', 'password')
+    //   input.setAttribute('value', 'Mostrar senha')
+    // } else{
+    //     input.setAttribute('type', 'text')
+    //     input.setAttribute('value', 'Ocultar sneha')
+    //     botao.value = 'ocultar senha';
+    // }
+
+   /* const li = document.querySelector('li');
+    
+    li.style.backgroundColor = 'blue';
+    li.style.fontSize = '20px';
+    li.style.textTransform = 'uppercase'
+    li.style.color = '#fff'*/
+
+    const button = document.querySelector('button');
+    //button.classList.remove('azul')
+    /*if(button.classList.contains('azul')) {
+        button.classList.contains('azul');
+        button.classList.contains('verde');
+
+    }else{
+        button.classList.contains('azul');
+        button.classList.contains('verde');
+
+    }*/
+
+    //button.classList.toggle('azul')
+    /**button.classList.replace('azul', 'verde')
+    console.log(button.classList)*/  
 }
 
 // let botao = document.querySelector('.botao')
-// botao.addEventListener("click", clicou)
+// botao.addEventListener("click", clicou)]
+/*
+function apertou() {
+   console.log("APERTOU")
+}
+
+function segurou() {
+    console.log("SEGUROU")
+}
+*/
+
+/*
+function soltou(e) {
+    //console.log("SOLTOU")
+    console.log("Telca apertada: " + e.code)
+    console.log("SHIFT? " + e.shiftKey);
+    console.log("---")
+}
+
+input = document.querySelector('input');
+input.addEventListener('keyup', soltou);*/
+
+/*
+const input = document.querySelector('input');
+const lista = document.querySelector('li');
+
+//eventos
+input.addEventListener('keyup', handlekeyup)
+
+//funcoes
+function handlekeyup(e){
+    if(event.key === 'Enter'){
+        //console.log("Ok");
+        //console.log(input.value);
+        lista.innerHTML += '<li>' + input.value + '</li>'
+        const newli = document.querySelector('li');
+        
+    }
+}*/
+
+//orientaçao a ojetos
+
+class Person {
+    constructor(name, age){
+        this.name = name;
+        this.age = age;
+    }
+}
+
+let p1 = new Person("Ksmode", 18);
+let p2 = new Person("Maria", 30);
+let p3 = new Person("Pedro", 40);
+
+console.log(p1.age);
+
