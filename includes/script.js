@@ -591,4 +591,3 @@ let p3 = new Person("Pedro", 40);
 
 console.log(p1.age);
 
-//ks
