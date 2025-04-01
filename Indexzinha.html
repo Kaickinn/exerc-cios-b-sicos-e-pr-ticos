@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursando HTML</title>
+    <link rel="stylesheet" href="css/estilo.css">    
+    <style>
+        body {
+            background-color: #2c1a1a;
+            font-family: Arial, sans-serif;
+            /* margin: 0;
+            padding: 20px; */
+        }
+         .imagem {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        } 
+    </style>
+</head>
+<body>
+    <picture>
+        <source media="(min-width: 650px)" srcset="img2.png" />
+        <source media="(min-width: 450px)" srcset="img3.png" />
+        <img src="img.jpg" alt="HTML" class="imagem">
+
+    </picture>
+</body>
+</html>
